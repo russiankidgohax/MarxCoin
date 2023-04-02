@@ -25,12 +25,26 @@
 
 ## Constructor Attributes for Token 
 
-"MarxCoin",
-"MARX",
-18,
-1000000000000000000000000000000 == 1_000_000_000_000_000_000_000_000_000_000 ^= 1 Billion Ether
-1000000000000000000000000000000
+- "MarxCoin",
+- "MARX",
+- 18,
+- 1000000000000000000000000000000 == 1_000_000_000_000_000_000_000_000_000_000 ^= 1 Billion Ether
 
 ## How is money redistributed?
 
+### Distribute tokens to registered accounts
 
+@startuml
+skinparam dpi 300
+
+actor owner as o
+actor "ith account" as acc
+participant "MarxCoin Network\nof registered\naccounts" as mc
+
+o -> mc : Enables registration
+acc --> mc : Registers
+o -> o : Calculates the\ntarget amount\nbased on the current\nnumber of\nregistered users
+o -> mc : Redistributes among network
+mc --> acc : Receives share
+
+@enduml
