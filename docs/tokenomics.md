@@ -45,7 +45,6 @@ People are given the opportunity to participate in a network that does not allow
 
 ### Distribute tokens to registered accounts
 
-
 ```
 @startuml
 skinparam dpi 300
@@ -61,8 +60,13 @@ o -> mc : Redistributes among network
 mc --> acc : Receives share
 @enduml
 ```
-
 ![](distribute-token-graphic.png)
+
+## Value Proposition Canvas
+
+
+![](Value-Proposition-Canvas.png)
+
 
 ## Outlook
 
