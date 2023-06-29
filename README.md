@@ -4,6 +4,8 @@ A bare-bones implementation of the Ethereum [ERC-20 standard](https://eips.ether
 
 For [Vyper](https://github.com/vyperlang/vyper), check out [`vyper-token-mix`](https://github.com/brownie-mix/vyper-token-mix).
 
+Detailed documentation can be found [here](https://github.com/russiankidgohax/MarxCoin/tree/main/docs).
+
 ## Installation
 
 1. [Install Brownie](https://eth-brownie.readthedocs.io/en/stable/install.html), if you haven't already.
