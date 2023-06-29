@@ -71,7 +71,7 @@ mc --> acc : Receives share
 ## Outlook
 
 To make this contract a viable consideration for everyday use one could:
-- Implement a restore function that enables the central entitiy to burn an account if the user has lost his credentials and mint the same amount the user has lost and provide him with a new account.
+- Implement a restore function that enables the central entity to burn an account if the user has lost his credentials and mint the same amount the user has lost and provide him with a new account.
 - Think of ways to remove the central entity, for example based on a governance token that controls the central entitiy and that is similarly implemented in democratic fashion so that every user has a right to vote.
 
 
